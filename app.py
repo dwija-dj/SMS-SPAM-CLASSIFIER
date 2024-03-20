@@ -2,6 +2,7 @@ import streamlit as st
 import pickle
 
 import nltk
+nltk.download('punkt')
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
 import string
