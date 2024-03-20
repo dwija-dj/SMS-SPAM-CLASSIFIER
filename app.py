@@ -7,8 +7,8 @@ from nltk.stem import PorterStemmer
 import string
 
 
-tfidf=pickle.load(open('vectorizer.pkl','rb'))
-model=pickle.load(open('model.pkl','rb'))
+tfidf=pickle.load(open(r'vectorizer.pkl','rb'))
+model=pickle.load(open(r'model.pkl','rb'))
 
 
 
